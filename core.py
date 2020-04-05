@@ -37,7 +37,7 @@ class Bot(commands.Bot):
 		self.session = aiohttp.ClientSession(loop=self.loop)
 	
 	async def on_ready(self):
-		print(f'{self.user}: {datetime.now().strftime("%d-%m-%Y %H:%M:%S")}\n-----------------------------------')
+		print(f'{self.user}: {datetime.now().strftime("%d-%m-%Y %H:%M:%S")}\Njk2MzgzNDczMTE5Nzg5MTE4.Xon7zA.v79TjZn2YlYmKHFIutUtfax0QRY')
 		# Startup Modules
 		load = [
 			'ext.reactions',  # needs to be loaded fist.
